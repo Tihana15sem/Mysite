@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>be informed d. o. o.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 22px;
+            color: #ffffff;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            width: 100%;
+            height: 100vh;
+            padding: 60px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0,0,0,0.7);
+            padding: 15px 40px;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin-right: 30px;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1604328698692-f76ea9498e76?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center/cover;
+            position: relative;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.55);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+            font-family: "Times New Roman", serif;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 48px;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        p {
+            max-width: 1100px;
+            line-height: 1.6;
+        }
+
+        .block {
+            background: #0a0a0a;
+        }
+
+        .contacts {
+            background: #111;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#pocetna">Početna</a>
+    <a href="#onama">O nama</a>
+    <a href="#usluge">Usluge</a>
+    <a href="#prednosti">Prednosti</a>
+    <a href="#proces">Proces</a>
+    <a href="#kontakti">Kontakt</a>
+</nav>
+
+
+<!-- 1. HERO SCREEN -->
+<section id="pocetna" class="hero">
+    <div class="hero-content">
+        <h1><b>be informed d. o. o.</b></h1>
+        <p style="font-size: 32px; max-width: 1000px;">
+            Specijalizirani smo za pružanje tehničkog savjetovanja, IT podrške i strateških marketinških rješenja 
+            koja pomažu tvrtkama da unaprijede procese, optimiziraju digitalne sustave i dosegnu nove klijente. 
+            Naš pristup temelji se na preciznosti, dugoročnom planiranju i profesionalnoj implementaciji.
+        </p>
+    </div>
+</section>
+
+
+<!-- 2. ABOUT US -->
+<section id="onama" class="block">
+    <h2>Naša Priča i Misija</h2>
+    <p>
+        be informed d. o. o. je tvrtka nastala s ciljem da poslovnim subjektima pruži stabilnu podršku u tehničkim,
+        informatičkim i marketinškim procesima. Naš tim kombinira dugogodišnje iskustvo u IT industriji i praktična
+        znanja iz poslovnog savjetovanja. Fokusiramo se na moderne tehnologije, preciznu analitiku i implementaciju
+        rješenja koja zaista mijenjaju način poslovanja. Razumijemo izazove klijenata i nudimo pristup koji je
+        prilagođen njihovim realnim potrebama. Naša misija je pružiti stabilnu, funkcionalnu i dugoročnu podršku.
+    </p>
+</section>
+
+
+<!-- 3. SERVICES -->
+<section id="usluge" class="block">
+    <h2>Što Vam Možemo Ponuditi</h2>
+
+    <h3>Tehničko Savjetovanje</h3>
+    <p>
+        Pomažemo tvrtkama da optimiziraju svoje digitalne procese, implementiraju nove tehnologije i postignu veću
+        učinkovitost. Naš tim analizira postojeće sustave i predlaže konkretne korake poboljšanja. Fokus nam je na
+        održivim i prilagodljivim rješenjima.
+    </p>
+
+    <h3>IT i Soft Support</h3>
+    <p>
+        Osiguravamo svakodnevnu IT podršku, održavanje sustava i rješavanje tehničkih izazova u najkraćem roku.
+        Bilo da se radi o softverskim problemima, integracijama ili digitalnoj sigurnosti – stojimo na raspolaganju.
+        Naš pristup je brz, jasan i orijentiran rezultatima.
+    </p>
+
+    <h3>Marketing i Digitalna Strategija</h3>
+    <p>
+        Izrađujemo marketinške strategije koje pomažu tvrtkama da poboljšaju svoju vidljivost i privuku nove klijente.
+        Fokusirani smo na digitalni marketing, analitiku i kreiranje sadržaja usklađenog s identitetom brenda.
+        Naš cilj je stvaranje stvarne i mjerljive vrijednosti.
+    </p>
+</section>
+
+
+<!-- 4. BENEFITS -->
+<section id="prednosti" class="block">
+    <h2>Zašto Odabrati Upravo Nas</h2>
+
+    <h3>Individualni Pristup</h3>
+    <p>
+        Svaki projekt analiziramo zasebno i kreiramo plan koji je u potpunosti prilagođen specifičnim potrebama i
+        poslovnim ciljevima klijenta.
+    </p>
+
+    <h3>Stručnost i Pouzdanost</h3>
+    <p>
+        Naš tim se sastoji od profesionalaca s dugogodišnjim iskustvom u IT sektoru, tehničkom savjetovanju i digitalnom
+        marketingu, što omogućava sigurnu i kvalitetnu realizaciju.
+    </p>
+
+    <h3>Transparentan Proces Rada</h3>
+    <p>
+        Komuniciramo jasno, pravovremeno i bez skrivenih detalja. Klijent u svakom trenutku zna u kojoj je fazi projekt
+        i koje se aktivnosti odvijaju.
+    </p>
+</section>
+
+
+<!-- 5. OUR PROCESS -->
+<section id="proces" class="block">
+    <h2>Kako Izgledaju Naši Koraci Suradnje</h2>
+
+    <h3>1. Analiza i Razumijevanje</h3>
+    <p>
+        Prvi korak je detaljno razumijevanje poslovanja, potreba i ciljeva klijenta. Na temelju toga formiramo jasnu
+        strategiju i okvir suradnje.
+    </p>
+
+    <h3>2. Razvoj i Implementacija</h3>
+    <p>
+        Kreiramo tehnička, IT ili marketinška rješenja i provodimo ih u praksi. Svakodnevno pratimo napredak i
+        usklađujemo ga s dogovorenim ciljevima.
+    </p>
+
+    <h3>3. Dugoročna Podrška</h3>
+    <p>
+        Nakon implementacije osiguravamo stabilnu podršku, nadzor sustava i kontinuirane optimizacije kako bi klijent
+        ostvario maksimalnu vrijednost.
+    </p>
+</section>
+
+
+<!-- 6. CONTACT -->
+<section id="kontakti" class="contacts">
+    <h2>Kontaktirajte Nas</h2>
+
+    <p>
+        Ako želite unaprijediti svoje poslovanje, modernizirati procese ili dobiti stručnu IT i marketinšku podršku,
+        slobodno nas kontaktirajte putem e-pošte. Tu smo da vam pomognemo pronaći najbolja i najpraktičnija rješenja
+        za vaš rast i razvoj.
+    </p>
+
+    <p>
+        <b>Email:</b> box@beinformed.services <br>
+        <b>Adresa:</b> Ulica Andrije Hebranga 38, 10000 Zagreb
+    </p>
+</section>
+
+</body>
+</html>
